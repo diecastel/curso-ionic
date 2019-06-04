@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FeedPageModule } from '../feed/feed.module';
 
 @Component({
   selector: 'app-tabs',
@@ -7,6 +8,7 @@ import { Component } from '@angular/core';
 })
 export class TabsPage {
 
+  Page4Root = FeedPageModule;
   constructor() {}
 
 }
